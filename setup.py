@@ -14,7 +14,8 @@ setup(
     author_email="opensource@proton.me",
     url="https://github.com/ProtonVPN/python-proton-vpn-api-core",
     install_requires=[
-        "proton-core", "distro", "sentry-sdk",
+        "proton-core @ git+https://github.com/ProtonVPN/python-proton-core.git@e87d1e3b5fc70883adc02ef2e2d9b0eb360b83ba#egg=proton-core",
+        "distro", "sentry-sdk",
         "cryptography", "PyNaCl", "distro"
     ],
     extras_require={
